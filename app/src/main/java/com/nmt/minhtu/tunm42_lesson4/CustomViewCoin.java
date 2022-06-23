@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class CustomView extends View {
+public class CustomViewCoin extends View {
     private static final float STROKE_WIDTH = 10f;
     private static final int ICON_COIN_NUMBER = 10;
     private static final int MAX_ALPHA = 255;
@@ -39,11 +39,11 @@ public class CustomView extends View {
     private int delayValue;
     private int delayMoveDown;
 
-    public CustomView(Context context) {
+    public CustomViewCoin(Context context) {
         super(context);
     }
 
-    public CustomView(Context context, @Nullable AttributeSet attrs) {
+    public CustomViewCoin(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         init();
     }

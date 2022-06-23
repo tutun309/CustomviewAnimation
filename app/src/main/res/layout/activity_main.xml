@@ -13,7 +13,7 @@
         android:id="@+id/custom_header"
         android:layout_alignParentTop="true"/>
 
-    <com.nmt.minhtu.tunm42_lesson4.CustomView
+    <com.nmt.minhtu.tunm42_lesson4.CustomViewCoin
         android:id="@+id/custom_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
